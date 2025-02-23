@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pac-man with Canvas</title>
+    <meta name="google" content="notranslate" />
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="container-pacman-score">
+      Score: <output class="pacman-score">0</output>
+    </aside>
+    <aside class="container-pacman-lives">
+      <div class="pacman-live"></div>
+      <div class="pacman-live"></div>
+      <div class="pacman-live"></div>
+    </aside>
+    <section class="container-packman">
+      <canvas class="packman-canvas" width="420" height="460"></canvas>
+      <div class="container-packman-sprites">
+        <img src="assets/ghost.png" alt="ghost" class="ghost-sprite" />
+        <img src="assets/pacman.gif" alt="pacman" class="pacman-sprite" />
+        <img src="assets/ghost2.png" alt="ghost" class="ghost-sprite-2" />
+        <img src="assets/fruit.png" alt="ghost" class="fruit-sprite" />
+        <img src="assets/fruit.png" alt="ghost" class="fruit-sprite" />
+        <img src="assets/ghotBlue.png" alt="ghost" class="ghost-blue" />
+        <img src="assets/ghotEyes.png" alt="ghost" class="ghost-eyes" />
+      </div>
+      <div class="pacman-modal">
+        <h2 class="pacman-lost h2-hidden">SORRY, YOU LOST!</h2>
+        <h2 class="pacman-win h2-hidden">CONGRATULATIONS, YOU WON!</h2>
+        <button class="btn-pacman-again">
+          <span class="back"></span>
+          <span class="front"></span>
+        </button>
+      </div>
+    </section>
+    <aside class="pacman-tabs">
+      <div class="tab-top">
+        <button class="tab toUp">W</button>
+      </div>
+      <div class="tab-bottom">
+        <button class="tab toLeft">A</button>
+        <button class="tab toDown">S</button>
+        <button class="tab toRight">D</button>
+      </div>
+    </aside>
+
+    <script src="pacman.js"></script>
+    <script src="ghost.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
