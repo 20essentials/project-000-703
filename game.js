@@ -8,7 +8,6 @@ const $ghostSprite = $('.ghost-sprite');
 const $ghostSprite2 = $('.ghost-sprite-2');
 const $pacmanSprite = $('.pacman-sprite');
 const $pacmanLives = $$('.pacman-live');
-
 const $pacmanModal = $('.pacman-modal');
 const $fruitSprite = $('.fruit-sprite');
 const $h2Win = $('.pacman-win');

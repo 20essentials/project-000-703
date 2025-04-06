@@ -1,5 +1,4 @@
 - **Reference / Inspiration ⬇️**
   - [Youtube Video Inspiration](https://youtu.be/GXlckaGr0Eo?si=tKj2KdLq0Mal3WMg)
   - [Recopilation Sounds of masonicGIT](https://github.com/masonicGIT/pacman/tree/master/sounds)
-  - [Github Code Inspiration](https://github.com/servetgulnaroglu/pacman-js)
   - [masonicGIT game Inspiration](https://masonicgit.github.io/pacman/)

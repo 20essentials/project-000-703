@@ -88,6 +88,7 @@ class Ghost {
       tempMoves.push(DIRECTION.BOTTOM);
       queue.push({ x: poped.x, y: poped.y + 1, moves: tempMoves });
     }
+    
     return queue;
   }
 

@@ -125,7 +125,6 @@ class Pacman {
     let C = matriz[this.get_Y_MapRightSide()][this.getMapX()] === TYPE.WALL;
     let D =
       matriz[this.get_Y_MapRightSide()][this.get_X_MapRightSide()] === TYPE.WALL;
-
     return A || B || C || D;
   }
 

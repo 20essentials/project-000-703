@@ -126,9 +126,10 @@ body {
 
 .container-pacman-score {
   position: fixed;
-  top: 12px;
-  left: 12px;
+  top: 0.7vmax;
+  left: 0.7vmax;
   color: #fff;
+  font-size: 1vmax;
 }
 
 .container-packman-sprites {
@@ -137,8 +138,8 @@ body {
 
 .container-pacman-lives {
   position: fixed;
-  bottom: 14px;
-  right: 14px;
+  bottom: 0.9vmax;
+  right: 0.9vmax;
   display: flex;
   gap: 0.5rem;
 
